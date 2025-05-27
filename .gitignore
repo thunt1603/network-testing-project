@@ -35,4 +35,25 @@ ENV/
 
 # Test coverage
 .coverage
-htmlcov/ 
+htmlcov/
+
+# Log files
+*.log
+
+# Screenshots and error images
+*.png
+*.jpg
+*.jpeg
+*.gif
+error_*.png
+login_failure.png
+source_ip_error.png
+ping_error.png
+basic_wifi_error.png
+mesh_disable_error.png
+change_password_error.png
+submit_error.png
+wifi_check_failure.png
+
+# Chrome user data
+chrome_user_data/ 
